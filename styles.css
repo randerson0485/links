@@ -1,5 +1,24 @@
 img{
   border-radius: 50%;
-  width: 40px;
-  height:40px;
+  width: 60px;
+  height:60px;
+}
+
+.container{
+  display: grid;
+  justify-content: center;  
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+}
+
+.container > *{
+  min-width: 100vw;
+}
+
+.socialsContainer{
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-evenly;
 }
