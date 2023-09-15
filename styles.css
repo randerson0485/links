@@ -1,24 +1,54 @@
+*{
+  box-sizing: border-box;
+}
 img{
   border-radius: 50%;
   width: 60px;
   height:60px;
 }
-
-.container{
-  display: grid;
-  justify-content: center;  
-  grid-template-rows: 1fr;
-  row-gap: 10px;
+h1{
+  text-align: center;
 }
 
-.container > *{
-  min-width: 100vw;
+body{
+  min-height: 100%;
+  height: fit-content;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.profilePicContainer{
+display: flex;
+justify-content: center;
+}
+
+.container{
+  margin: auto;
+  padding: 30px;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: blue;
+
 }
 
 .socialsContainer{
   display: flex;
   background-color: pink;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: space-evenly;
+  align-content: space-around;
+  width: 100%;
+}
+
+.links{
+  border-radius: 27px;
+  background-color: green;
+  display: flex;
+  justify-content: start;
+  padding: 5px
+}
+
+p{
+  padding-left: 12px;
 }
