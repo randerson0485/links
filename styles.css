@@ -51,19 +51,23 @@ justify-content: center;
   height: 20px; 
 }
 
-.links{
+.links {
   border-radius: 27px;
   background-color: green;
   display: flex;
-  justify-content: start;
+  justify-content: center; /* Update this line */
+  align-items: center; /* Add this line to center vertically if needed */
   padding: 5px;
 }
 
-.linksImage{
+
+
+.linksImage {
   border-radius: 30px;
-  width: 70px;
-  height: 70px;
+  /* width: 70px; Remove this line */
+  /* height: 70px; Remove this line */
 }
+
 
 p{
   padding-left: 12px;
